@@ -1,0 +1,73 @@
+body {
+  padding: 10px;
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+#videoel {
+    -o-transform : scaleX(-1);
+    -webkit-transform : scaleX(-1);
+    transform : scaleX(-1);
+    -ms-filter : fliph; /*IE*/
+    filter : fliph; /*IE*/
+    float: left;
+}
+
+h1, .h1, h2, .h2, h3, .h3, {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.addPersonDiv{
+  max-width: 330px;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.container .header {
+    top: 0;
+    bottom: 330px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 310px;
+    
+}
+
+.container .content {
+    top: 350px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.container .header .detf {
+    float: right;
+}
+
+a.remove {
+    color: red;
+    font-size: 2em;
+}
